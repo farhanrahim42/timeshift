@@ -1,3 +1,3 @@
     <?php
-	$contents = file_get_contents('http://itnthackathon.bweas.tm.com.my/api/getBRASInfo?transform=1);
+	$contents = file_get_contents('http://itnthackathon.bweas.tm.com.my/api/getBRASInfo?transform=1');
 	?>

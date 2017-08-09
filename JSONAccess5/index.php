@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         $IPMSAN=@$_GET['IPMSAN'];
-        $contents = file_get_contents('http://itnthackathon.bweas.tm.com.my/api/getNodeLocation?filter[]=IPMSAN,eq,'.$IPMSAN);
+        $contents = file_get_contents('http://172.30.201.238:8080/api/getNodeLocation?filter[]=IPMSAN,eq,'.$IPMSAN);
         echo ("$contents");
         ?>
     </body>
